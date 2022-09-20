@@ -4,7 +4,7 @@ import pickle
 
 #Global variables
 app=Flask(__name__)
-loaded_model=pickle.load(open('Logistic Model.pkl','rb'))
+loaded_model=pickle.load(open('LogisticModel.pkl','rb'))
 
 #user defined routes
 @app.route("/")
